@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             answerButton1 = new Button();
-            AnswerButton2 = new Button();
+            answerButton2 = new Button();
             answerButton3 = new Button();
             answerbButton4 = new Button();
             logListBox = new ListBox();
@@ -44,17 +44,17 @@
             answerButton1.TabIndex = 0;
             answerButton1.Text = "button1";
             answerButton1.UseVisualStyleBackColor = true;
-            answerButton1.Click += answerButton1_Click;
+            answerButton1.Click += answerButton_Click;
             // 
-            // AnswerButton2
+            // answerButton2
             // 
-            AnswerButton2.Location = new Point(219, 285);
-            AnswerButton2.Name = "AnswerButton2";
-            AnswerButton2.Size = new Size(94, 29);
-            AnswerButton2.TabIndex = 1;
-            AnswerButton2.Text = "button2";
-            AnswerButton2.UseVisualStyleBackColor = true;
-            AnswerButton2.Click += AnswerButton2_Click;
+            answerButton2.Location = new Point(219, 285);
+            answerButton2.Name = "answerButton2";
+            answerButton2.Size = new Size(94, 29);
+            answerButton2.TabIndex = 1;
+            answerButton2.Text = "button2";
+            answerButton2.UseVisualStyleBackColor = true;
+            answerButton2.Click += answerButton_Click;
             // 
             // answerButton3
             // 
@@ -64,7 +64,7 @@
             answerButton3.TabIndex = 2;
             answerButton3.Text = "button3";
             answerButton3.UseVisualStyleBackColor = true;
-            answerButton3.Click += answerButton3_Click;
+            answerButton3.Click += answerButton_Click;
             // 
             // answerbButton4
             // 
@@ -74,7 +74,7 @@
             answerbButton4.TabIndex = 3;
             answerbButton4.Text = "button4";
             answerbButton4.UseVisualStyleBackColor = true;
-            answerbButton4.Click += answerbButton4_Click;
+            answerbButton4.Click += answerButton_Click;
             // 
             // logListBox
             // 
@@ -102,10 +102,11 @@
             Controls.Add(logListBox);
             Controls.Add(answerbButton4);
             Controls.Add(answerButton3);
-            Controls.Add(AnswerButton2);
+            Controls.Add(answerButton2);
             Controls.Add(answerButton1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -113,7 +114,7 @@
         #endregion
 
         private Button answerButton1;
-        private Button AnswerButton2;
+        private Button answerButton2;
         private Button answerButton3;
         private Button answerbButton4;
         private ListBox logListBox;
