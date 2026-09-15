@@ -44,6 +44,7 @@
             answerButton1.TabIndex = 0;
             answerButton1.Text = "button1";
             answerButton1.UseVisualStyleBackColor = true;
+            answerButton1.Click += answerButton1_Click;
             // 
             // AnswerButton2
             // 
@@ -53,6 +54,7 @@
             AnswerButton2.TabIndex = 1;
             AnswerButton2.Text = "button2";
             AnswerButton2.UseVisualStyleBackColor = true;
+            AnswerButton2.Click += AnswerButton2_Click;
             // 
             // answerButton3
             // 
@@ -62,6 +64,7 @@
             answerButton3.TabIndex = 2;
             answerButton3.Text = "button3";
             answerButton3.UseVisualStyleBackColor = true;
+            answerButton3.Click += answerButton3_Click;
             // 
             // answerbButton4
             // 
@@ -71,6 +74,7 @@
             answerbButton4.TabIndex = 3;
             answerbButton4.Text = "button4";
             answerbButton4.UseVisualStyleBackColor = true;
+            answerbButton4.Click += answerbButton4_Click;
             // 
             // logListBox
             // 
