@@ -42,5 +42,6 @@ namespace TeamQuizApp
         {
 
         }
+        //コメントアウト
     }
 }
